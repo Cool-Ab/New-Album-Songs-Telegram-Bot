@@ -512,6 +512,7 @@ async function startBot() {
     console.log("Bot is running");
   } catch (error) {
     console.error("Bot failed to start:", error);
+    process.exit(1);
   }
 }
 
